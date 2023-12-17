@@ -49,3 +49,12 @@ a img {
   height: 16px;
   padding-right: 40px;
 }
+/* hero */
+.hero {
+  background-image: url(/resources/images/banner-landingpage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 43.5rem;
+}
