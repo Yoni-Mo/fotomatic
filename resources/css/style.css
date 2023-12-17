@@ -58,3 +58,58 @@ a img {
   overflow: hidden;
   height: 43.5rem;
 }
+.signup {
+  width: 570px;
+  height: 370px;
+  background-color: #9dc20a;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  margin-top: 170px;
+  margin-bottom: 170px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.p-1 {
+  color: #fff;
+  font-family: "Damion", cursive;
+  font-size: 2.25rem;
+  margin-top: 32px;
+}
+h1 {
+  color: #fff;
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.request {
+  width: 70%;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 26px;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.4;
+}
+strong {
+  font-weight: bold;
+}
+.btn {
+  background-color: #4a4a4a;
+  width: 408px;
+  height: 64px;
+  border-radius: 4px;
+  margin-bottom: 56px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.btn-text {
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
