@@ -205,3 +205,21 @@ strong {
   height: 236px;
   width: 251px;
 }
+/* fourth section */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.quote > p {
+  color: #4a4a4a;
+  font-size: 1.875rem;
+  font-family: palatino-Italic;
+  line-height: 1.1;
+  margin-right: 15px;
+}
+.quote-logo {
+  margin-left: 15px;
+}
