@@ -165,3 +165,43 @@ strong {
   line-height: 1.2;
   font-weight: 300;
 }
+/* third section */
+.section-3 {
+  height: 500px;
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 64px;
+  margin-bottom: 40px;
+}
+.content > h2 {
+  color: #fff;
+  opacity: 100%;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.content > p {
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+.gallery {
+  height: 236px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 1% 64px 1%;
+}
+.gallery > img {
+  height: 236px;
+  width: 251px;
+}
