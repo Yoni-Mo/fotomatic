@@ -11,12 +11,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .navbar {
   width: 100%;
+  height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: #fff;
 }
 .link-1 {
   font-size: 24px;
@@ -112,4 +116,52 @@ strong {
   color: #fff;
   font-size: 1.25rem;
   line-height: 1.4;
+}
+/* second section */
+.section-2 {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+.feature-1,
+.feature-2 {
+  background-color: #fff;
+  width: 640px;
+  height: 750px;
+}
+.feature-1 {
+  margin: 64px 19px 46px;
+}
+.feature-2 {
+  margin: 64px 19px 46px;
+}
+.feature-1 > img {
+  width: 90%;
+  height: 65%;
+  margin: 32px 32px 40px 32px;
+}
+.feature-2 > img {
+  width: 90%;
+  height: 65%;
+  margin: 32px 32px 40px 32px;
+}
+.description {
+  height: 187px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.description > h3 {
+  font-size: 2.25rem;
+  color: #4a4a4a;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.description > p {
+  color: #4a4a4a;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 300;
 }
