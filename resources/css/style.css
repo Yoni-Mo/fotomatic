@@ -223,3 +223,18 @@ strong {
 .quote-logo {
   margin-left: 15px;
 }
+/* footer */
+footer {
+  background-color: #4a4a4a;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > p {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding-right: 32px;
+  padding-left: 32px;
+}
